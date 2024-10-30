@@ -1,0 +1,11 @@
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+}
+
+@media (max-width: 1440px) {
+  .footer__list {
+    width: auto;
+  }
+}

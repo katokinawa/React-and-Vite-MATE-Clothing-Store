@@ -1,0 +1,12 @@
+.header__list-item {
+  line-height: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 17px 15px 14px;
+}
+
+@media (max-width: 1440px) {
+  .header__list-item:nth-last-child(-n+2) {
+    display: none
+  }
+}

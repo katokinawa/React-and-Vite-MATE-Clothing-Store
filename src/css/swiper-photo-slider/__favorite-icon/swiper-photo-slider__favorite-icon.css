@@ -1,0 +1,8 @@
+.swiper-photo-slider__favorite-icon {
+  background-image: url(../../../img/svg/favorite.svg);
+  width: 12px;
+  height: 15px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}

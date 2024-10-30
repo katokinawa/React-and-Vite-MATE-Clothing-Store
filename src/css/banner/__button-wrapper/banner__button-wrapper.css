@@ -1,0 +1,21 @@
+.banner__button-wrapper {
+  width: 377px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: white;
+  position: absolute;
+  bottom: 10%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1440px)  {
+  .banner__button-wrapper {
+    top: auto;
+    bottom: 10%;
+  }
+}

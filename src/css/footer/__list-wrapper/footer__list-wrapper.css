@@ -1,0 +1,11 @@
+.footer__list-wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 52px;
+}
+
+@media (max-width: 1440px) {
+  .footer__list-wrapper {
+    display: none;
+  }
+}

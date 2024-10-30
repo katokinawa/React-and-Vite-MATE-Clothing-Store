@@ -1,68 +1,76 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+@import url(./vendor/fonts/JetBrainsMono/font-jetbrains-mono.css);
+@import url(./vendor/fonts/HelveticaNeue/font-helvetica-neue.css);
+@import url(./css/util-classes.css);
+@import url(./css/root/root.css);
+@import url(./css/body/body.css);
+@import url(./css/page/page.css);
+@import url(./css/page/__attention-wrapper/page__attention-wrapper.css);
+@import url(./css/page/__attention-close/page__attention-close.css);
+@import url(./css/page/__attention/page__attention.css);
+@import url(./css/header/header.css);
+@import url(./css/header/__list-left/header__list-left.css);
+@import url(./css/header/__list-right/header__list-right.css);
+@import url(./css/header/__left/header__left.css);
+@import url(./css/header/__nav-left/header__nav-left.css);
+@import url(./css/header/__right/header__right.css);
+@import url(./css/header/__logo/header__logo.css);
+@import url(./css/header/__burger/header__burger.css);
+@import url(./css/header/__list-item/header__list-item.css);
+@import url(./css/header/__list-wrapper/header__list-wrapper.css);
+@import url(./css/header/__favicon-padding/header__favicon-padding.css);
+@import url(./css/main/main.css);
+@import url(./css/banner/banner.css);
+@import url(./css/banner/__link/banner__link.css);
+@import url(./css/banner/__photo-wrapper/banner__photo-wrapper.css);
+@import url(./css/banner/__photo/banner__photo.css);
+@import url(./css/banner/__button-wrapper/banner__button-wrapper.css);
+@import url(./css/banner/__inner-button/banner__inner-button.css);
+@import url(./css/modules/swiper__text.css);
+@import url(./css/swiper__wrapper/swiper__wrapper.css);
+@import url(./css/swiper/swiper.css);
+@import url(./css/footer/footer.css);
+@import url(./css/footer/__list-wrapper/footer__list-wrapper.css);
+@import url(./css/swiper-photo-slider/swiper-photo-slider.css);
+@import url(./css/swiper-photo-slider/__item-photo/swiper-photo-slider__item-photo.css);
+@import url(./css/swiper-photo-slider/__item-text/swiper-photo-slider__item-text.css);
+@import url(./css/swiper-photo-slider/__promo-text/swiper-photo-slider__promo-text.css);
+@import url(./css/swiper-photo-slider/__favorite-icon/swiper-photo-slider__favorite-icon.css);
+@import url(./css/swiper-photo-slider/__img/swiper-photo-slider__img.css);
+@import url(./css/swiper-photo-slider/__heading/swiper-photo-slider__heading.css);
+@import url(./css/swiper-photo-slider/__price-text/swiper-photo-slider__price-text.css);
+@import url(./css/swiper-photo-slider/__sizes-wrapper/swiper-photo-slider__sizes-wrapper.css);
+@import url(./css/swiper-photo-slider/__sizes-text/swiper-photo-slider__sizes-text.css);
+@import url(./css/swiper-text-slider/swiper-text-slider.css);
+@import url(./css/footer/__list/footer__list.css);
+@import url(./css/footer/__list-item/footer__list-item.css);
+@import url(./css/footer/__list-wrapper-mobile/footer__list-wrapper-mobile.css);
+@import url(./css/footer/__list-blocks/footer__list-blocks.css);
+@import url(./css/footer/__list-item-block/footer__list-item-block.css);
+@import url(./css/footer/__list-item-mobile/footer__list-item-mobile.css);
+@import url(./css/footer/__list-block-mobile/footer__list-block-mobile.css);
+@import url(./css/footer/__list-icon/footer__list-icon.css);
+@import url(./css/footer/__list-icon/_arrow-top/footer__list-icon_arrow-top.css);
+@import url(./css/footer/__promo/footer__promo.css);
+@import url(./css/footer/__promo-heading/footer__promo-heading.css);
+@import url(./css/footer/__promo-description/footer__promo-description.css);
+@import url(./css/footer/__promo-form/footer__promo-form.css);
+@import url(./css/footer/__promo-field/footer__promo-field.css);
+@import url(./css/footer/__styled-checkbox/footer__styled-checkbox.css);
+@import url(./css/footer/__promo-checkbox/footer__promo-checkbox.css);
+@import url(./css/footer/__checkbox-wrapper/footer__checkbox-wrapper.css);
+@import url(./css/footer/__checkbox/footer__checkbox.css);
+@import url(./css/footer/__promo-button/footer__promo-button.css);
+@import url(./css/footer/__promo-subscription-alert/footer__promo-subscription-alert.css);
+@import url(./css/footer/__promo-url/footer__promo-url.css);
+@import url(./css/header-modal/header-modal.css);
+@import url(./css/header-modal/__wrapper/header-modal__wrapper.css);
+@import url(./css/header-modal/__item/header-modal__item.css);
+@import url(./css/footer/__promo-mobile/footer__promo-mobile.css);
+@import url(./css/footer/__promo-description-mobile/footer__promo-description-mobile.css);
+@import url(./css/footer/__promo-filed-mobile/footer__promo-field-mobile.css);
+@import url(./css/footer/__promo-button-mobile/footer__promo-button-mobile.css);
+@import url(./css/header-modal/__aside/header-modal__aside.css);
+@import url(./css/header-modal/__title/header-modal__title.css);
+@import url(./css/header-modal/__link-wrapper/header-modal__link-wrapper.css);
+@import url(./css/header-modal/__link-button/header-modal__link-button.css);
+@import 'swiper/css/bundle';
