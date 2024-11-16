@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Footer({ isAttentionForm, handleAttentionForm }) {
+export default function Footer({ isAttentionForm, handleAttentionForm }) {
   const [iconIsListOpen, setIconIsListOpen] = useState(null);
 
   function handleToggleList(blockname) {
@@ -355,5 +355,3 @@ function Footer({ isAttentionForm, handleAttentionForm }) {
     </footer>
   );
 }
-
-export default Footer;

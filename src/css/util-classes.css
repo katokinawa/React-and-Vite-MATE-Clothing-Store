@@ -42,9 +42,9 @@ input {
   position: relative;
 }
 
-.swiper-photo-slider .swiper-button-prev::after {
+.swiper-button-prev::after, .swiper-button-next::after {
   content: '';
-  background-image: url(../img/svg/arrow-left.svg);
+  display: block; /* Добавьте это для отображения */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -53,16 +53,14 @@ input {
   scale: 1.5;
 }
 
-.swiper-photo-slider .swiper-button-next::after {
-  content: '';
-  background-image: url(../img/svg/arrow-right.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 24px;
-  height: 24px;
-  scale: 1.5;
+.swiper-button-prev::after {
+  background-image: url('../img/svg/arrow-left.svg');
 }
+
+.swiper-button-next::after {
+  background-image: url('../img/svg/arrow-right.svg');
+}
+
 
 /* text */
 

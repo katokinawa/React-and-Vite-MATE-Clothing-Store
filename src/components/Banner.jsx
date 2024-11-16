@@ -1,4 +1,4 @@
-function Banner({ banner, bannerMobile }) {
+export default function Banner({ banner, bannerMobile }) {
   return (
     <article className="banner">
       <a className="banner__link" href="#">
@@ -13,5 +13,3 @@ function Banner({ banner, bannerMobile }) {
     </article>
   );
 }
-
-export default Banner;

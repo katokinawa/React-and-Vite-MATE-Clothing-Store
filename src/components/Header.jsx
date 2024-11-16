@@ -1,4 +1,4 @@
-function Header({ isAttention, isModal, setIsModal }) {
+export default function Header({ isAttention, isModal, setIsModal }) {
   function handleModal() {
     setIsModal((prev) => !prev);
   }
@@ -44,5 +44,3 @@ function Header({ isAttention, isModal, setIsModal }) {
     </header>
   );
 }
-
-export default Header;

@@ -1,4 +1,4 @@
-function CarouselPhoto({ isNew, imgSrc, imgAlt }) {
+export default function CarouselPhoto({ isNew, imgSrc, imgAlt }) {
   return (
     <div id="slider-photo">
       <div className="swiper-slide swiper-photo-slider__item-photo">
@@ -17,5 +17,3 @@ function CarouselPhoto({ isNew, imgSrc, imgAlt }) {
     </div>
   );
 }
-
-export default CarouselPhoto;

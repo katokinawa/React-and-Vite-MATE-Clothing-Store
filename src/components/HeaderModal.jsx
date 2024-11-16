@@ -1,4 +1,4 @@
-function HeaderModal({ isAttentionForm, handleAttentionForm }) {
+export default function HeaderModal({ isAttentionForm, handleAttentionForm }) {
   return (
     <div id="header-modal">
       <div className="header-modal">
@@ -106,5 +106,3 @@ function HeaderModal({ isAttentionForm, handleAttentionForm }) {
     </div>
   );
 }
-
-export default HeaderModal;

@@ -1,4 +1,4 @@
-function Attention({ isAttention, setIsAttention }) {
+export default function Attention({ isAttention, setIsAttention }) {
   function handleAttention() {
     setIsAttention((prev) => !prev);
   }
@@ -11,5 +11,3 @@ function Attention({ isAttention, setIsAttention }) {
     </div>
   );
 }
-
-export default Attention;

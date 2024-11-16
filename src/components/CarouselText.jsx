@@ -1,4 +1,4 @@
-function CarouselText({ cardName, price, sizes }) {
+export default function CarouselText({ cardName, price, sizes }) {
   const regexPriceWithSpaces = /\B(?=(\d{3})+(?!\d))/g;
 
   function formatNumberWithSpaces(number) {
@@ -22,5 +22,3 @@ function CarouselText({ cardName, price, sizes }) {
     </div>
   );
 }
-
-export default CarouselText;

@@ -1,3 +1,4 @@
+@import 'swiper/css/bundle';
 @import url(./vendor/fonts/JetBrainsMono/font-jetbrains-mono.css);
 @import url(./vendor/fonts/HelveticaNeue/font-helvetica-neue.css);
 @import url(./css/util-classes.css);
@@ -73,4 +74,3 @@
 @import url(./css/header-modal/__title/header-modal__title.css);
 @import url(./css/header-modal/__link-wrapper/header-modal__link-wrapper.css);
 @import url(./css/header-modal/__link-button/header-modal__link-button.css);
-@import 'swiper/css/bundle';
