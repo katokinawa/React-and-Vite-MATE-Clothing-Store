@@ -1,5 +1,5 @@
 .swiper-photo-slider__item-photo {
   position: relative;
-  max-width: 470px;
-  min-height: 627px;
+  min-width: 470px;
+  height: 60vh;
 }
