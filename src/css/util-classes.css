@@ -1,7 +1,4 @@
-:root {
-  --fav-header-width: 22px;
-  --fav-header-height: 22px;
-}
+
 
 div {
   display: block;
@@ -26,6 +23,48 @@ button {
 input {
   border: none;
   outline: none;
+}
+
+.error-div {
+  font-size: 62.5%;
+  margin: 5% 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-p {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.error-a {
+  color: #575757;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 34px;
+  border: 1px solid #bdbdbd;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+.error-a:hover {
+  color: white;
+  background-color: #313131;
+}
+
+.error-p:first-child {
+  font-size: 6em;
+}
+
+.error-banner {
+  border-radius: 15px;
+  width: 50%;
+  height: 70vh;
 }
 
 .overflow-hidden {

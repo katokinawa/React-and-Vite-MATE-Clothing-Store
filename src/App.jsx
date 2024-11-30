@@ -7,7 +7,8 @@ import HeaderModal from "./components/HeaderModal";
 import SwiperTextWelcome from "./components/Swiper/SwiperTextWelcome";
 import SwiperPhotoSlider from "./components/Swiper/SwiperPhotoSlider";
 import SwiperTextSlider from "./components/Swiper/SwiperTextSlider";
-import mainBanner from "./img/banners/main_banner.jpg";
+// import mainBanner from "./img/banners/main_banner.jpg";
+import mainBannerTwo from "./img/banners/main_banner.webp"
 import secondMainBanner from "./img/banners/main_banner_2.jpg";
 import mainBannerMobile from "./img/banners/main_banner_mobile.jpg";
 import secondMainBannerMobile from "./img/banners/main_banner_2_mobile.jpg";
@@ -43,7 +44,7 @@ function App() {
           setIsModal={setIsModal}
         />
         <main className="main">
-          <Banner banner={mainBanner} bannerMobile={mainBannerMobile} />
+          <Banner banner={mainBannerTwo} bannerMobile={mainBannerMobile} bannerOne={true} />
           <SwiperTextWelcome />
           <SwiperPhotoSlider card={cardForSlider} secondSwiper={secondSwiper} setFirstSwiper={setFirstSwiper} />
           <SwiperTextSlider card={cardForSlider} firstSwiper={firstSwiper} setSecondSwiper={setSecondSwiper} />

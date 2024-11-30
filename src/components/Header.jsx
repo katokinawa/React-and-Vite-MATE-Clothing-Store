@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header({ isAttention, isModal, setIsModal }) {
   function handleModal() {
     setIsModal((prev) => !prev);
@@ -33,7 +35,7 @@ export default function Header({ isAttention, isModal, setIsModal }) {
         <div className="header__right">
           <ul className="header__list-right">
             <li className="header__list-item header__favicon-padding fav-search"></li>
-            <li className="header__list-item header__favicon-padding fav-account"></li>
+            <li><Link className="header__list-item header__favicon-padding fav-account" to={"/signin"}></Link></li>
             <li className="header__list-item header__favicon-padding fav-flag"></li>
             <li className="header__list-item header__favicon-padding fav-bag"></li>
             <li className="header__list-item text-uppercase">Магазины</li>

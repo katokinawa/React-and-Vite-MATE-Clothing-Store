@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer({ isAttentionForm, handleAttentionForm }) {
   const [iconIsListOpen, setIconIsListOpen] = useState(null);
@@ -67,9 +68,9 @@ export default function Footer({ isAttentionForm, handleAttentionForm }) {
           Нажимая на кнопку «Подписаться» Вы соглашаетесь на обработку
           персональных данных и получение новостей, а также подтверждаете, что
           ознакомились с
-          <a className="footer__promo-url" href="#">
+          <Link className="footer__promo-url" to={"#"}>
             политикой конфиденциальности
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -265,27 +266,27 @@ export default function Footer({ isAttentionForm, handleAttentionForm }) {
         <div className="footer__list-wrapper-mobile">
           <ul className="footer__list-blocks">
             <li className="footer__list-item-block margin-bottom-15 text-uppercase">
-              <a href="#">telegram</a>
+              <Link to="#">telegram</Link>
             </li>
             <li className="footer__list-item-block margin-bottom-15 text-uppercase">
-              <a href="#">вконтакте</a>
+              <Link to={"#"}>вконтакте</Link>
             </li>
             <li className="footer__list-item-block margin-bottom-15 text-uppercase">
-              <a href="#">youtube</a>
+              <Link to={"#"}>youtube</Link>
             </li>
             <li className="footer__list-item-block margin-bottom-15 text-uppercase">
-              <a href="#">pinterest</a>
+              <Link to={"#"}>pinterest</Link>
             </li>
             <li className="footer__list-item-block margin-bottom-15 text-uppercase">
-              <a href="#">shop@mate.ru</a>
+              <Link to={"#"}>shop@mate.ru</Link>
             </li>
             <li className="footer__list-item-block margin-bottom-15 text-uppercase">
-              <a href="tel:88008888888">
+              <Link to="tel:88008888888">
                 8 800 888 88 88 <br />
                 <span className="text-lowercase">
                   ежедневно с 9:00 до 21:00
                 </span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -347,9 +348,9 @@ export default function Footer({ isAttentionForm, handleAttentionForm }) {
           Нажимая на кнопку «Подписаться» Вы соглашаетесь на обработку
           персональных данных и получение новостей, а также подтверждаете, что
           ознакомились с
-          <a className="footer__promo-url" href="#">
+          <Link className="footer__promo-url" to={"#"}>
             политикой конфиденциальности
-          </a>
+          </Link>
         </div>
       </section>
     </footer>
