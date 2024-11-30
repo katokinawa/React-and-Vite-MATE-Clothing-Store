@@ -1,8 +1,5 @@
-# React + Vite
+# Магазин одежды: MATE React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Создаётся для развития и самореализации
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pet Project: Сайт магазина одежды MATE. Можно просматривать коллекции, закидывать интересующие позиции в корзину, просматривать текущие покупки. Также на сайте присутствует возможность создания личного кабинета где можно ознакомиться с завершенными и текущими покупками, их датой и местом проведения.
