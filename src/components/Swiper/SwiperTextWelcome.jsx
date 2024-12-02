@@ -7,7 +7,7 @@ export default function SwiperTextWelcome() {
     <Swiper
       wrapperClass={"swiper__wrapper"}
       spaceBetween={0}
-      speed={5000}
+      speed={4300}
       allowTouchMove={false}
       loop={true}
       autoplay={{
@@ -41,14 +41,26 @@ export default function SwiperTextWelcome() {
         1380: {
           slidesPerView: 11,
         },
-        1441: {
-          slidesPerView: 8,
+        1440: {
+          slidesPerView: 11,
         },
         1920: {
-          slidesPerView: 10,
+          slidesPerView: 15,
         },
       }}
     >
+      <SwiperSlide className="swiper__text text-second-family text-uppercase">
+        Добро пожаловать
+      </SwiperSlide>
+      <SwiperSlide className="swiper__text text-second-family text-uppercase">
+        -`♡´-
+      </SwiperSlide>
+      <SwiperSlide className="swiper__text text-second-family text-uppercase">
+        Добро пожаловать
+      </SwiperSlide>
+      <SwiperSlide className="swiper__text text-second-family text-uppercase">
+        -`♡´-
+      </SwiperSlide>
       <SwiperSlide className="swiper__text text-second-family text-uppercase">
         Добро пожаловать
       </SwiperSlide>

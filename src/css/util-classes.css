@@ -71,12 +71,6 @@ input {
   overflow: hidden;
 }
 
-.swiper__wrapper {
-  -webkit-transition-timing-function: linear !important;
-  transition-timing-function: linear !important;
-  display: flex;
-}
-
 .swiper-photo-slider {
   position: relative;
 }

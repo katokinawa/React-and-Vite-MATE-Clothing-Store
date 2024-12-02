@@ -3,10 +3,9 @@ import CarouselText from "../CarouselText";
 import { Controller } from "swiper/modules";
 
 export default function SwiperTextSlider({ card, firstSwiper, setSecondSwiper }) {
-  // console.log(card.map(props => props.sizes))
   return (
     <Swiper
-      spaceBetween={10}
+      spaceBetween={0}
       slidesPerView={4}
       grabCursor={true}
       modules={[ Controller ]}
