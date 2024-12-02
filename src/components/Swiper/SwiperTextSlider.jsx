@@ -5,7 +5,7 @@ import { Controller } from "swiper/modules";
 export default function SwiperTextSlider({ card, firstSwiper, setSecondSwiper }) {
   return (
     <Swiper
-      spaceBetween={0}
+      spaceBetween={10}
       slidesPerView={4}
       grabCursor={true}
       modules={[ Controller ]}
